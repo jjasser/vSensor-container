@@ -4,7 +4,7 @@
 <h5>The containerization is comprised of three main files:</h5>
 
 <ul>
-<li>**Dockerfile** - the purpose of this file is to create a template with all the dependencies, libraries, configurations for the application.</li>
+<li> **Dockerfile** - the purpose of this file is to create a template with all the dependencies, libraries, configurations for the application.</li>
 <li>**docker-compose.yml** - this file is used to bring up multiple containers. In this context is used to pull environment variables.</li>
 <li>**.env** - used to define a few environment variables to pass into the Dockerfile</li>
 </ul>

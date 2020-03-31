@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  vsensor:
+    build: .
+    image: vsensor/build:3.3
+    environment: 
+      - test=${KEY}
+
+
+    

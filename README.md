@@ -6,7 +6,7 @@
 <ul>
 <li><strong>Dockerfile</strong> - the purpose of this file is to create a template with all the dependencies, libraries, configurations for the application.</li>
 <li><strong>docker-compose.yml</strong> - this file is used to bring up multiple containers. In this context is used to pull environment variables.</li>
-<li><strong>.env</strong> - used to define a few environment variables to pass into the Dockerfile. In this case it has KEY=VALUE_OF_KEY. And .gitignore has *.env</li>
+<li><strong>.env</strong> - used to define a few environment variables to pass into the Dockerfile. In this case the .env file has KEY=VALUE_OF_KEY. And .gitignore has *.env</li>
 </ul>
 
 ---
